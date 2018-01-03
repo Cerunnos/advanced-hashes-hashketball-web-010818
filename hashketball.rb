@@ -181,3 +181,7 @@ def big_shoe_rebounds
   player=biggest_shoe_size
   player.fetch(:rebounds)
 end
+
+def player_names(game_hash)
+
+end
