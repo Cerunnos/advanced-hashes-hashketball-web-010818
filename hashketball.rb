@@ -184,7 +184,8 @@ end
 
 def player_names(game_hash)
   game_hash.each do |team,info|
-    if info=="players"
-      
+    info[:players].each do |name|
+
+    end
   end
 end
