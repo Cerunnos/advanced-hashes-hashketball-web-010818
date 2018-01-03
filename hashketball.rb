@@ -183,6 +183,7 @@ def big_shoe_rebounds
 end
 
 def player_names(game_hash)
+  empty_array=[]
   game_hash.each do |team,info|
     info[:players].each do |data|
       data[:player_name]
