@@ -189,4 +189,5 @@ def player_names(game_hash)
       empty_array<<data[:player_name]
     end
   end
+  empty_array
 end
