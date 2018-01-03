@@ -185,7 +185,7 @@ end
 def player_names(game_hash)
   game_hash.each do |team,info|
     info[:players].each do |data|
-      
+      data[:player_name]
     end
   end
 end
